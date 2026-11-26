@@ -1,0 +1,51 @@
+SESIÓN 19
+FINALIZACIÓN DE LA UNIDAD 2
+
+Nombre: José Antonio Cruz Vigil
+Asignatura: Programación Estructurada
+
+1. Debes saludar a un estudiante que puede proporcionar o no su apellido.
+
+Concepto: Parámetros opcionales.
+
+Explicación: Utilizaría un parámetro opcional porque el estudiante puede proporcionar su apellido o dejarlo vacío. De esta manera, la función puede funcionar en ambos casos.
+
+2. Una librería aplica un descuento del 10 % cuando no se indica otro porcentaje.
+
+Concepto: Parámetros con valores por defecto.
+
+Explicación: Utilizaría un valor por defecto para establecer automáticamente un descuento del 10 % cuando no se proporcione otro porcentaje.
+
+3. Necesitas sumar notas, pero la cantidad recibida puede cambiar en cada llamada.
+
+Concepto: Parámetros rest (rest parameters).
+
+Explicación: Utilizaría los parámetros rest porque permiten recibir una cantidad variable de valores en una función y almacenarlos en un arreglo para realizar la suma.
+
+4. Quieres que una función reciba la operación que debe realizar sobre un número.
+
+Concepto: Funciones como parámetros (callback).
+
+Explicación: Utilizaría una función como parámetro para enviar la operación que se desea realizar, permitiendo que la función principal ejecute diferentes operaciones según lo recibido.
+
+5. Necesitas una función que devuelva el dato recibido conservando su tipo.
+
+Concepto: Funciones genéricas.
+
+Explicación: Utilizaría una función genérica porque permite recibir y devolver diferentes tipos de datos conservando el tipo original de cada valor.
+
+6. Una función cambia una propiedad de un objeto recibido. ¿Podría observarse ese cambio fuera de la función?
+
+Concepto: Efectos secundarios y referencias a objetos.
+
+Explicación: Sí, el cambio puede observarse fuera de la función porque los objetos se pasan mediante referencias. Cuando se modifica una propiedad del objeto dentro de la función, también se modifica el objeto original.
+
+7. Quieres sumar los primeros N números con una función que se llame a sí misma.
+
+Concepto: Recursividad.
+
+Explicación: Utilizaría una función recursiva porque puede llamarse a sí misma para sumar los números anteriores hasta llegar a un caso base que detenga las llamadas.
+
+CONCLUSIÓN
+
+Los conceptos de esta unidad permiten desarrollar funciones más flexibles y reutilizables. Cada uno resuelve una necesidad diferente, desde recibir parámetros opcionales hasta utilizar funciones genéricas y recursivas.
